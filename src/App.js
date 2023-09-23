@@ -9,7 +9,7 @@ import bcg1 from "../static/images/bcg1.jpg";
 
 const AppLayout = () => {
   return (
-    <div className="app-container" style={{ backgroundImage: `url(${bcg1})` }}>
+    <div className="app-container">
       <Banner />
       <Header />
       <Body />
