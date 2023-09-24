@@ -7,18 +7,24 @@ const Gallery = () => {
   console.log(Media);
   return (
     <div id="gallery_container">
-      <div id="media_container">
-        {Media.map((file, index) => (
-          <div className="media" key={index} onClick={() => setFile(file)}>
-            {/* {console.log({ file })} */}
-            <img src={file.url} alt="" />
+      <h1>Gallery</h1>
+      <div id="media">
+        <div id="one">
+          <div id="imge1"></div>
+          <div id="imge2">
+            <h4>Labs</h4>
           </div>
-        ))}
-      </div>
 
-      <div id="popup_media" style={{ display: file ? "block" : "none" }}>
-        <span onClick={() => setFile(null)}>&times;</span>
-        {<img src={file?.url} />}
+          {/* <div id="only">
+            <div id="imge3"></div>
+            <div id="imge4"></div>
+          </div> */}
+        </div>
+
+        <div id="two">
+          <div id="imge5"></div>
+          <div id="imge6"></div>
+        </div>
       </div>
     </div>
   );

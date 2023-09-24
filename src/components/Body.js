@@ -7,8 +7,7 @@ const Body = () => {
       <div id="poster"></div>
       <div id="welcome">
         {/* <Welcome /> */}
-        {/* <Gallery /> */}
-        <Labs />
+        <Gallery />
       </div>
     </div>
   );
