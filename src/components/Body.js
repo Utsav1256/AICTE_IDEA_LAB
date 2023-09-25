@@ -1,4 +1,4 @@
-import ImageSlider from "./ImageSlider";
+import Slider from "./Slider";
 import Welcome from "./Welcome";
 import Gallery from "./Gallery";
 const Body = () => {
@@ -6,7 +6,7 @@ const Body = () => {
     <div className="body_container">
       <div id="poster"></div>
       <div id="welcome">
-        <ImageSlider />
+        <Slider />
         <Welcome />
         <Gallery />
       </div>

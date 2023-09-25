@@ -11,10 +11,14 @@ body {
   background-color: #fff;
 }
 #preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #d5d2d2 url("./static/images/preloader.gif") no-repeat center
     center;
   height: 115%;
-  background-size: 50%;
+  background-size: 20%;
+  /* margin-left: 20px; */
   width: 110%;
   position: fixed;
   z-index: 100;
@@ -256,11 +260,13 @@ body {
   max-width: 100%;
   overflow: hidden;
   margin-top: -6rem;
+  height: 100vh;
 }
 
 .slider {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .slider img {
@@ -522,6 +528,54 @@ body {
   cursor: pointer;
   color: #fff;
   user-select: none;
+}
+
+/* CONTACT US */
+.contact {
+  margin-top: 120px;
+}
+.contact h2 {
+  margin-bottom: 3rem;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+  caret-color: var(--main-color);
+}
+
+.contact form .input input {
+  width: 49%;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.contact .btn {
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* Idea Lab Innogration */

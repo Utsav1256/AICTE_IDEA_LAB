@@ -8,6 +8,7 @@ import Error from "./components/Error";
 import Body from "./components/Body";
 import About from "./components/About";
 import GalleryAll from "./components/GAlleryAll";
+import ContactUs from "./components/ContactUs";
 
 const AppLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -38,7 +39,6 @@ const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
-    errorElement: <Error />,
     children: [
       {
         path: "/",
@@ -52,7 +52,12 @@ const appRouter = createBrowserRouter([
         path: "/gallery",
         element: <GalleryAll />,
       },
+      {
+        path: "/contact-us",
+        element: <ContactUs />,
+      },
     ],
+    // errorElement: <Error />,
   },
 ]);
 
