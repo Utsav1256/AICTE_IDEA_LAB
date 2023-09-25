@@ -1,5 +1,6 @@
 import Pic1 from "../../static/images/DSC_0547.png";
 import img1 from "../../static/images/AICTE_Idea.png";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -18,8 +19,11 @@ const Welcome = () => {
         {/* <div id="img">
           <img id="imge" src={img1} width="220px" height="150px" />
         </div> */}
-        <div className="about-next-img"></div>
+        <Link to="/about">
+          <div className="about-next-img"></div>
+        </Link>
       </div>
+
       <div id="img">
         <img id="pic1" src={Pic1} width="220px" height="150px" />
       </div>

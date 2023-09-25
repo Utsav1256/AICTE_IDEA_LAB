@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -35,11 +36,31 @@ const Header = () => {
 
       <div id="menu_links" className={isActive ? "active" : ""}>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Event Calender</li>
-          <li>Media</li>
-          <li>Contact Us</li>
+          <li>
+            <Link id="link" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link id="link" to="/about">
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link id="link" to="/event-calender">
+              Event Calender
+            </Link>
+          </li>
+          <li>
+            <Link id="link" to="/gallery">
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link id="link" to="/contact-us">
+              Contact Us
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

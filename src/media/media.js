@@ -31,10 +31,7 @@ const Media = [
       type: "image",
       url: require("./IOT WITH EMBEDED SYSTEM LAB/IMG-20230811-WA0010.jpg"),
     },
-    {
-      type: "image",
-      url: require("./IOT WITH EMBEDED SYSTEM LAB/IMG-20230811-WA0011.jpg"),
-    },
+
     {
       type: "image",
       url: require("./IOT WITH EMBEDED SYSTEM LAB/IMG-20230811-WA0012.jpg"),
@@ -58,6 +55,7 @@ const Media = [
       url: require("./VINYL CUTTER/IMG-20230811-WA0017.jpg"),
     },
   ],
+  [],
 ];
 
 export default Media;

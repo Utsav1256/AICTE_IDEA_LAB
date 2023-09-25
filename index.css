@@ -10,6 +10,15 @@ body {
   height: 100%;
   background-color: #fff;
 }
+#preloader {
+  background: #d5d2d2 url("./static/images/preloader.gif") no-repeat center
+    center;
+  height: 115%;
+  background-size: 50%;
+  width: 110%;
+  position: fixed;
+  z-index: 100;
+}
 
 /* AppLayout */
 .app-container {
@@ -19,9 +28,11 @@ body {
 
 /* Banner */
 .banner_container {
+  position: fixed;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 60px;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -31,6 +42,7 @@ body {
   background: linear-gradient(to right, #ff9102, #ee0202);
   /* padding: 10px 20px; */
   overflow: hidden;
+  z-index: 1;
 }
 .banner_container:before {
   content: "";
@@ -84,13 +96,17 @@ body {
 
 /* Header */
 #header {
+  position: fixed;
+  top: 60;
+  right: 0;
   width: 100%;
   height: 50px;
-  background-color: rgb(6, 99, 99);
+  background-color: rgba(6, 99, 99, 0.6);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 10px;
+  z-index: 1;
 }
 #header #logo {
   width: 20%;
@@ -111,24 +127,7 @@ body {
   margin-left: 60px;
 }
 
-#header #menu_links {
-  width: 50%;
-  color: #fff4f4;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-}
-#header #menu_links ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 40px;
-}
-#header #menu_links li {
-  list-style: none;
-}
-#header .login {
+/* #header .login {
   width: 15%;
 }
 #header .login button {
@@ -138,13 +137,13 @@ body {
   border-radius: 10px;
   border-style: none;
   font-weight: 700;
-}
+} */
 #toggle {
   position: absolute;
   right: 0;
   width: 60px;
   height: 30px;
-  background-color: rgb(6, 99, 99);
+  /* background-color: rgba(6, 99, 99, 0.6); */
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -174,7 +173,7 @@ body {
   color: rgb(6, 99, 99);
 }
 #toggle.active {
-  background: rgb(6, 99, 99);
+  /* background: rgb(6, 99, 99); */
 }
 
 #menu_links {
@@ -186,7 +185,7 @@ body {
   /* position: relative; */
   /* height: 100%; */
   /* right: 60px; */
-  background: rgba(6, 99, 99, 0);
+  background: rgba(6, 99, 99, 0.6);
   /* background-image: url("./static/images/dimagwa1.png"); */
   background-size: 289px;
   background-repeat: no-repeat;
@@ -220,7 +219,6 @@ body {
   /* position: relative; */
   list-style: none;
 }
-/*  */
 
 #header #menu_links.active {
   height: calc(100vh - 110px);
@@ -228,8 +226,7 @@ body {
   /* width: 100%; */
 }
 
-/*  */
-#menu_links ul li {
+#menu_links ul li #link {
   color: #fff;
   text-decoration: none;
   line-height: 60px;
@@ -240,24 +237,75 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-#menu_links ul li:hover {
+#menu_links ul li #link:hover {
   color: #ffbd59;
   /* font-weight: bolder; */
   font-size: 1.3rem;
   /* background: #8c52ff; */
   border-radius: 10px;
 }
+
+/* Body */
+.body_container {
+  margin-top: 150px;
+}
+/* SLIDER */
+
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: -6rem;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+/* Style for the navigation buttons */
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
 /* Welcome */
 #welcome_container {
   width: 100%;
   text-align: left;
   /* border: 2px solid burlywood; */
   margin-top: 40px;
+  height: 76vh;
   padding: 4px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 70px;
+  margin-bottom: 40px;
 }
 #welcome_container #text {
   width: 50%;
@@ -410,7 +458,7 @@ body {
   margin-top: 30px;
   min-height: 100vh;
   position: relative;
-  margin: 0 auto;
+  margin-top: 100px;
   padding: 25px;
 }
 #labs_container h1 {
@@ -476,7 +524,7 @@ body {
   user-select: none;
 }
 
-/* Labs */
+/* Idea Lab Innogration */
 
 /*--------------------------------- Responsiveness -------------------------------------------------------*/
 @media (max-width: 1019.2px) {
@@ -514,7 +562,7 @@ body {
   .banner_container {
     width: 100%;
     gap: 10px;
-    height: 50px;
+    height: 60px;
   }
   #img1 {
     width: 210px;
