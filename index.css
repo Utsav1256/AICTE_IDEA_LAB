@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Maven+Pro&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Martian Mono', monospace;
 }
 
 html,
@@ -16,13 +19,18 @@ body {
   justify-content: center;
   background: #d5d2d2 url("./static/images/preloader.gif") no-repeat center
     center;
-  height: 115%;
+  height: 100%;
   background-size: 20%;
   /* margin-left: 20px; */
-  width: 110%;
+  width: 100%;
   position: fixed;
   z-index: 100;
 }
+
+.chat{
+  display: none;
+}
+
 
 /* AppLayout */
 .app-container {
