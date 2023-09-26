@@ -1,0 +1,124 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer {
+  height: auto;
+  width: 100vw;
+  background-color: black;
+}
+
+.contain {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: #0ef;
+}
+
+.column {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.f-heading h2 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1rem;
+}
+
+.f-content a {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.f-content li {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#social ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#social li {
+  display: block;
+  width: 2rem;
+}
+
+#social li small {
+  padding-top: 0.5rem;
+  display: flex;
+  width: 0rem;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+#social li:hover small {
+  width: 4rem;
+  color: aqua;
+  overflow: hidden;
+}
+
+.f-content a i {
+  color: #0ef;
+  font-size: 1rem;
+  border-color: #0ef;
+}
+
+.f-content a i {
+  color: #0ef;
+  font-size: 1rem;
+  border-color: #0ef;
+}
+
+.f-content a i:hover {
+  color: black;
+  background-color: aqua;
+  box-shadow: 0px 0px 10px aqua;
+}
+
+.f-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  height: 28%;
+  padding: 1rem 4rem 1rem;
+}
+
+.f-logo img {
+  height: 3rem;
+  justify-content: space-between;
+}
+
+li a small{
+  padding:5% 0%;
+  font-size: 1%;
+}
+li a:hover{
+  color: aqua;
+}
+
+/* RESPONSIVE */
+
+
+@media  (max-width:480){
+    .contain{
+  flex-direction:column;
+}
+
+.column {
+  width: 100%;
+}
+}
