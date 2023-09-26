@@ -2,6 +2,7 @@ import React from "react";
 // import logo from "../images/logo.png";
 // import idealogo from "../images/idealablogo.png";
 import "./css/Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -48,57 +49,24 @@ function Footer() {
           <div className="f-content">
             <ul>
               <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
+                <Link id="link" to="/about">
+                  About Us
+                </Link>
               </li>
               <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
+                <Link id="link" to="/gallery">
+                  Gallery
+                </Link>
               </li>
               <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
+                <Link id="link" to="/contact-us">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className="column">
-          <div className="f-heading">
-            <h2>Labs</h2>
-          </div>
-          <div className="f-content">
-            <ul>
-              <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="fa">
-                  <small>Required Value</small>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+
         <div className="column">
           <div className="f-heading">
             <h2>Our Socials</h2>

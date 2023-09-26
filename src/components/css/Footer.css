@@ -1,4 +1,4 @@
-*{
+* {
   text-decoration: none;
   list-style: none;
 }
@@ -102,23 +102,25 @@
   justify-content: space-between;
 }
 
-li a small{
-  padding:5% 0%;
-  font-size: 1%;
+li a small {
+  padding: 5% 0%;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.8px;
 }
-li a:hover{
+li a:hover {
   color: aqua;
 }
 
 /* RESPONSIVE */
 
+@media (max-width: 480) {
+  .contain {
+    flex-direction: column;
+  }
 
-@media  (max-width:480){
-    .contain{
-  flex-direction:column;
-}
-
-.column {
-  width: 100%;
-}
+  .column {
+    width: 100%;
+  }
 }

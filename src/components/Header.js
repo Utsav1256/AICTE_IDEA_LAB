@@ -47,11 +47,7 @@ const Header = () => {
               About Us
             </Link>
           </li>
-          <li>
-            <Link id="link" to="/event-calender">
-              Events
-            </Link>
-          </li>
+
           <li>
             <Link id="link" to="/gallery">
               Gallery
