@@ -1,3 +1,4 @@
+import "./css/Contact.css";
 const ContactUs = () => {
   return (
     <div class="contact" id="contact">

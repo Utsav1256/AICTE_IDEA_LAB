@@ -7,8 +7,8 @@
   background-color: rgba(6, 99, 99, 0);
   background: linear-gradient(
     to right,
-    rgba(255, 145, 2, 0.5),
-    rgba(238, 2, 2, 0.5)
+    rgba(255, 145, 2, 0),
+    rgba(238, 2, 2, 0)
   );
 
   display: flex;
@@ -26,7 +26,7 @@
 }
 #header #logo #one {
   font-size: 22px;
-  color: rgb(255, 255, 255);
+  color: rgb(226, 17, 17);
 }
 #header #logo #two {
   font-size: 20px;
@@ -65,7 +65,7 @@
   position: absolute;
   width: 28px;
   height: 2px;
-  background: #ffffff;
+  background: #ec4c12;
   transition: transform 0.2s;
 }
 #toggle::before {
@@ -91,7 +91,7 @@
   /* position: relative; */
   /* height: 100%; */
   /* right: 60px; */
-  background: rgba(6, 99, 99, 0.6);
+  /* background: rgba(6, 99, 99, 0.6); */
   background: linear-gradient(
     to right,
     rgba(255, 145, 2, 0.5),
@@ -191,14 +191,17 @@
 }
 @media screen and (max-width: 719.9px) {
   #header #menu_links.active {
-    height: calc(100vh - 123.6px);
+    height: calc(100vh - 110px);
     bottom: 0;
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
+  #header {
+    background: #fff;
+  }
   #header #menu_links.active {
-    height: calc(100vh - 123.6px);
+    height: calc(100vh - 110px);
   }
 }
 @media screen and (max-width: 300px) {
@@ -213,6 +216,6 @@
     margin-left: 25%;
   }
   #header #menu_links.active {
-    height: calc(100vh - 123.6px);
+    height: calc(100vh - 110px);
   }
 }
