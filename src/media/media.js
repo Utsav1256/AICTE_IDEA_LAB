@@ -55,6 +55,169 @@ const Media = [
       url: require("./VINYL CUTTER/IMG-20230811-WA0017.jpg"),
     },
   ],
+  [
+    // INAUGRATION
+    {
+      type: "image",
+      url: require("./INAUGRATION/1.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/2.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/3.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/4.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/5.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/6.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/7.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/8.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./INAUGRATION/9.jpg"),
+    },
+   
+  ],
+  [
+    // JISTECh
+    {
+      type: "image",
+      url: require("./JISTECH/11.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/12.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/13.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/14.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/15.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/16.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/17.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/18.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/19.jpg"),
+    },
+   
+  ],
+
+  [
+    // JISTECh
+    {
+      type: "image",
+      url: require("./JISTECH/11.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/12.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/13.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/14.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/15.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/16.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/17.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/18.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./JISTECH/19.jpg"),
+    },
+   
+  ],
+
+  [
+    // Prize
+    {
+      type: "image",
+      url: require("./prize/21.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/22.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/23.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/24.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/25.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/26.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/27.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/28.jpg"),
+    },
+    {
+      type: "image",
+      url: require("./prize/29.jpg"),
+    },
+   
+  ],
+
   [],
 ];
 
