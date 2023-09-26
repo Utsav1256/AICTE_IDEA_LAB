@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./css/Header.css";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -48,7 +49,7 @@ const Header = () => {
           </li>
           <li>
             <Link id="link" to="/event-calender">
-              Event Calender
+              Events
             </Link>
           </li>
           <li>

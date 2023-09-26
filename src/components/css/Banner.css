@@ -145,3 +145,40 @@
     background-repeat: no-repeat;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .banner_container {
+    width: 100%;
+    gap: 0px;
+  }
+  .banner_container #img1 {
+    background-size: 58px;
+    width: 65px;
+    height: 57px;
+    margin-left: 2px;
+    background-image: url("../../../static/images/jisce-small.png");
+
+    /* background-image: url("../../../static/images/JIS-Group-logo.png"); */
+  }
+  .banner_container #img2 {
+    background-size: 37px;
+    width: 39px;
+    height: 52px;
+    background-image: url("../../../static/images/AICTE_Idea.png");
+    background-repeat: no-repeat;
+  }
+  .banner_container #img3 {
+    background-size: 51px;
+    width: 59px;
+    height: 53px;
+    background-image: url("../../../static/images/aicte-small.png");
+    background-repeat: no-repeat;
+  }
+  .banner_container #img4 {
+    background-size: 54px;
+    width: 61px;
+    height: 58px;
+    background-image: url("../../../static/images/JIS-Group-logo.png");
+    background-repeat: no-repeat;
+  }
+}
