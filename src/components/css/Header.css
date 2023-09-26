@@ -18,22 +18,22 @@
   z-index: 1;
 }
 #header #logo {
-  width: 20%;
+  width: 180px;
   color: #fff4f4;
   margin-left: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 2px;
 }
 #header #logo #one {
-  font-size: 22px;
+  font-size: 16px;
   color: rgb(226, 17, 17);
 }
 #header #logo #two {
-  font-size: 20px;
-  color: rgb(251, 243, 3);
+  color: #006aff;
   text-align: center;
-  width: 10px;
-  margin-left: 60px;
+  width: 82%;
+  margin-left: -13px;
+  font-size: 16px;
 }
 
 /* #header .login {
@@ -47,6 +47,7 @@
     border-style: none;
     font-weight: 700;
   } */
+
 #toggle {
   position: absolute;
   right: 0;
@@ -160,7 +161,7 @@
 /*--------------------------------- Responsiveness -------------------------------------------------------*/
 @media (max-width: 1000.2px) {
   #header #logo {
-    width: 182px;
+    width: 180px;
   }
   #menu_links {
     position: fixed;
@@ -190,6 +191,9 @@
   }
 }
 @media screen and (max-width: 719.9px) {
+  #header #logo {
+    width: 180px;
+  }
   #header #menu_links.active {
     height: calc(100vh - 110px);
     bottom: 0;
@@ -200,8 +204,19 @@
   #header {
     background: #fff;
   }
+  #header #logo {
+    width: 180px;
+  }
   #header #menu_links.active {
     height: calc(100vh - 110px);
+  }
+  #labs_container {
+    background-color: #f6f2ed;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 111px;
+    padding: 25px;
+    position: relative;
   }
 }
 @media screen and (max-width: 300px) {

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Maven+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Maven+Pro&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Martian Mono', monospace;
+  font-family: "Martian Mono", monospace;
 }
 
 html,
@@ -27,10 +27,9 @@ body {
   z-index: 100;
 }
 
-.chat{
+.chat {
   display: none;
 }
-
 
 /* AppLayout */
 .app-container {
