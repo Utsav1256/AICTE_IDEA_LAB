@@ -2,6 +2,7 @@ import imgee1 from "../../static/images/bcg1.jpg";
 import imgee2 from "../../static/images/ANK_0020.jpg";
 import imgee3 from "../../static/images/msg1404115845-1446.jpg";
 import imgee4 from "../../static/images/msg1404115845-1445.jpg";
+
 import { useState, useEffect } from "react";
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -64,13 +65,13 @@ const Slider = () => {
         />
       </div>
       {/* Add more image elements for additional slides */}
-      <button onClick={() => prevSlide()}>
+      <button className="prev-btn" onClick={() => prevSlide()}>
         <i
           class="fa-regular fa-circle-chevron-left"
           style={{ color: "#1d0476" }}
         ></i>
       </button>
-      <button onClick={() => nextSlide()}>
+      <button className="next-btn" onClick={() => nextSlide()}>
         <i
           class="fa-regular fa-circle-chevron-right"
           style={{ color: "#1d0476" }}

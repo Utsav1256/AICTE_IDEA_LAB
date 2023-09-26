@@ -2,7 +2,7 @@ import JISCE_IMG from "../../static/images/jisce_logo-3.png";
 import JISGroup_IMG from "../../static/images/JIS-Group-logo.png";
 import AICTE_IMG from "../../static/images/aicte_logo_new.png";
 import AICTE_Idea_IMG from "../../static/images/AICTE_Idea.png";
-
+import "./css/Banner.css";
 const Banner = () => {
   return (
     <div className="banner_container">

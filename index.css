@@ -31,72 +31,6 @@ body {
 }
 
 /* Banner */
-.banner_container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 40px;
-  /* margin-top: 1.5px; */
-  /* background-color: rgb(250, 102, 10); */
-  background: linear-gradient(to right, #ff9102, #ee0202);
-  /* padding: 10px 20px; */
-  overflow: hidden;
-  z-index: 1;
-}
-.banner_container:before {
-  content: "";
-  position: absolute;
-  height: 550px;
-  width: 50px;
-  background: #f3f3f3;
-  box-shadow: 0 0 10px #fff;
-  filter: blur(1px);
-  opacity: 0.7;
-  top: -320px;
-  transition: 0.7s;
-  transform: rotate(-30deg) translate(-620px);
-}
-.banner_container:hover:before {
-  transform: rotate(-10deg) translate(100vw, 150px);
-}
-.banner_container #img1 {
-  /* margin-right: 10px; */
-  width: 262px;
-  height: 50px;
-  /* background-color: #1b0661; */
-  background-image: url("./static/images/jisce_logo-3.png");
-  background-size: 249px;
-  background-repeat: no-repeat;
-}
-.banner_container #img2 {
-  width: 100px;
-  height: 50px;
-  background-image: url("./static/images/AICTE_Idea.png");
-
-  background-size: 37px;
-  background-repeat: no-repeat;
-}
-.banner_container #img3 {
-  width: 262px;
-  height: 50px;
-  background-image: url("./static/images/aicte_logo_new.png");
-
-  background-size: 249px;
-  background-repeat: no-repeat;
-}
-.banner_container #img4 {
-  width: 80px;
-  height: 54px;
-  background-image: url("./static/images/JIS-Group-logo.png");
-
-  background-size: 55px;
-  background-repeat: no-repeat;
-}
 
 /* Header */
 #header {
@@ -105,7 +39,13 @@ body {
   right: 0;
   width: 100%;
   height: 50px;
-  background-color: rgba(6, 99, 99, 0.6);
+  background-color: rgba(6, 99, 99, 0);
+  background: linear-gradient(
+    to right,
+    rgba(255, 145, 2, 0.5),
+    rgba(238, 2, 2, 0.5)
+  );
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,11 +61,11 @@ body {
 }
 #header #logo #one {
   font-size: 22px;
-  color: rgb(247, 158, 41);
+  color: rgb(255, 255, 255);
 }
 #header #logo #two {
   font-size: 20px;
-  color: rgb(221, 214, 14);
+  color: rgb(251, 243, 3);
   text-align: center;
   width: 10px;
   margin-left: 60px;
@@ -160,7 +100,7 @@ body {
   position: absolute;
   width: 28px;
   height: 2px;
-  background: #fff;
+  background: #ffffff;
   transition: transform 0.2s;
 }
 #toggle::before {
@@ -282,8 +222,8 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: rgba(104, 97, 97, 0.5);
+  /* color: white; */
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -582,9 +522,6 @@ body {
 
 /*--------------------------------- Responsiveness -------------------------------------------------------*/
 @media (max-width: 1019.2px) {
-  .banner_container {
-    width: 100%;
-  }
   #header #logo {
     width: 182px;
   }
@@ -613,44 +550,8 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
-  .banner_container {
-    width: 100%;
-    gap: 10px;
-    height: 60px;
-  }
-  #img1 {
-    width: 210px;
-    margin-left: 4px;
-    background-size: 210px;
-    height: 42px;
-    /* background-image: url("./static/images/JIS-Group-logo.png"); */
-  }
-  #img2 {
-    width: 30px;
-    margin-left: 4px;
-    background-size: 30px;
-    height: 42px;
-
-    /* background-image: url("./static/images/JIS-Group-logo.png"); */
-  }
-  #img3 {
-    width: 216px;
-    margin-left: 4px;
-    background-size: 216px;
-    height: 42px;
-
-    /* background-image: url("./static/images/JIS-Group-logo.png"); */
-  }
-  #img4 {
-    width: 52px;
-    height: 50px;
-    background-size: 49px;
-  }
 }
 @media screen and (max-width: 480px) {
-  .banner_container {
-    width: 50%;
-  }
   #menu_links.active {
     height: calc(100vh - 110px);
   }
