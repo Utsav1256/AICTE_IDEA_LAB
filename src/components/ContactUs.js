@@ -1,8 +1,9 @@
+import "./css/Contact.css";
 const ContactUs = () => {
   return (
     <div class="contact" id="contact">
       <h2 class="heading">
-        Contact <span>Us !!</span>
+        Contact <span>Us !</span>
       </h2>
       <br />
       <form action="https://formspree.io/f/mqkvyjpw" method="POST">

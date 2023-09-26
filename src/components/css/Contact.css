@@ -1,12 +1,16 @@
+
+
 .contact {
   margin-top: 70px;
   padding: 20px;
+  background-color: black;
 }
 .contact h2 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
   text-align: center;
-  color: rgb(72, 197, 201);
+  color: rgb(10, 239, 247);
+  padding-top: 2%;
 }
 
 .contact form {
@@ -17,7 +21,9 @@
 }
 
 .contact form .input {
+  caret-color: rgb(10, 239, 247);
   display: flex;
+  color: rgb(10, 239, 247);
   justify-content: space-between;
   flex-wrap: wrap;
   border-style: none;
@@ -51,24 +57,28 @@
 }
 .btn {
   height: 40px;
-  width: 60%;
+  width: 30%;
   text-align: center;
+  letter-spacing: 0.1rem;
   margin-top: 0px;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: bold;
-  background-color: rgb(245, 135, 45);
+  border : 1px solid rgb(10, 239, 247);
+  background-color: rgb(10, 239, 247);
   transition: all 0.2s ease;
   cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  color: black;
   letter-spacing: 2px;
+  box-shadow: 0px 0px 1rem rgb(4, 247, 255);
 }
 .btn:hover {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   font-weight: bold;
-  color: aqua;
-  background-color: #f9103f;
+  color: black;
+  background-color: rgb(10, 239, 247);
+  box-shadow: 0px 0px 0px 0px rgba(10, 239, 247, 0.464);
 }
 
 /*--------------------------------- Responsiveness -------------------------------------------------------*/

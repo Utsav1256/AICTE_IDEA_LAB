@@ -65,17 +65,11 @@ const Slider = () => {
         />
       </div>
       {/* Add more image elements for additional slides */}
-      <button className="prev-btn" onClick={() => prevSlide()}>
-        <i
-          class="fa-regular fa-circle-chevron-left"
-          style={{ color: "#1d0476" }}
-        ></i>
+      <button className="prev-btn" onClick={() => prevSlide()}>      <i class='bx bxs-chevron-left'  style={{ color: "#1d0476" }}></i>
+
       </button>
       <button className="next-btn" onClick={() => nextSlide()}>
-        <i
-          class="fa-regular fa-circle-chevron-right"
-          style={{ color: "#1d0476" }}
-        ></i>
+        <i class='bx bxs-chevron-right' style={{ color: "#1d0476" }}></i>
       </button>
     </div>
   );
