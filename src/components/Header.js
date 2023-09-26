@@ -58,7 +58,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link id="link" to="/contact-us">
+            <Link id="link" to="#contact-us">
               Contact Us
             </Link>
           </li>

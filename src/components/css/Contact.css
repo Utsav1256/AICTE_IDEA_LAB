@@ -1,0 +1,94 @@
+.contact {
+  margin-top: 70px;
+  padding: 20px;
+}
+.contact h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(72, 197, 201);
+}
+
+.contact form {
+  max-width: 44rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-style: none;
+}
+
+.contact form .input input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+  caret-color: var(--main-color);
+}
+
+.contact form .input input {
+  width: 49%;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.btn {
+  text-align: center;
+  /* display: flex;
+    justify-content: space-between; */
+  cursor: pointer;
+}
+.btn {
+  height: 40px;
+  width: 60%;
+  text-align: center;
+  margin-top: 0px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 135, 45);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.btn:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: aqua;
+  background-color: #f9103f;
+}
+
+/*--------------------------------- Responsiveness -------------------------------------------------------*/
+@media (max-width: 1019.2px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 400px) {
+  .contact form .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: none;
+    gap: 0;
+  }
+  .contact form .input input {
+    width: 94%;
+  }
+}

@@ -9,6 +9,7 @@ import Body from "./components/Body";
 import About from "./components/About";
 import GalleryAll from "./components/GAlleryAll";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 const AppLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ const AppLayout = () => {
           <Banner />
           <Header />
           <Outlet />
+          <Footer />
         </div>
       )}
     </div>

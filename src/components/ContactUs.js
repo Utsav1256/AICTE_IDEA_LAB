@@ -1,6 +1,8 @@
+import "./css/Contact.css";
+
 const ContactUs = () => {
   return (
-    <div class="contact" id="contact">
+    <div class="contact" id="contact-us">
       <h2 class="heading">
         Contact <span>Us !!</span>
       </h2>
