@@ -1,0 +1,86 @@
+.about {
+  margin-top: 150px;
+}
+
+.about-content::before {
+  background-image: url("../../../static/images/after-lab.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.about-content h2 {
+  font-size: 1.4rem;
+}
+
+.about-next-img {
+  background-image: url("../../../static/images/before.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem 0rem 0rem;
+  height: 5rem;
+  width: 5rem;
+  transition: 0.3s ease;
+}
+
+.about-next-img:hover {
+  background-image: url("../../../static/images/after-lab.png");
+  height: 5.5rem;
+  width: 5.5rem;
+}
+
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.txt-content {
+  padding-top: 2rem;
+}
+
+.content-2 {
+  padding: 2rem 2rem;
+  display: flex;
+}
+
+#our-objective .img {
+  padding: 2rem 0rem;
+  width: 48%;
+}
+
+#our-objective {
+  flex-direction: row-reverse;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  width: 50%;
+  padding: 2rem 2rem;
+}
+
+#our-vision .img {
+  padding: 2rem 0rem;
+  width: 48%;
+}
+
+#our-mission .img {
+  padding: 2rem 0rem;
+  width: 48%;
+}
+
+#our-mission {
+  flex-direction: row-reverse;
+}
+
+#about-jisce .img {
+  padding: 2rem 0rem;
+  width: 48%;
+}

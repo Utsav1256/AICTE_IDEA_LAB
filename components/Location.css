@@ -1,0 +1,46 @@
+h2{
+    padding-top:2%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 2rem 4rem;
+    display: flex;
+}
+
+.map{
+    width: 48%;
+    padding: 0rem 2rem;
+ 
+}
+
+.virtual{
+    background: url("https://i0.wp.com/pichaimages.com/wp-content/uploads/2021/04/Picha-Images-virtual-tour.jpeg?fit=1200%2C603&ssl=1") no-repeat center ;
+    background-size: cover;
+    width: 48%;
+    padding: 0rem 2rem;
+
+}
+
+/* Responsive  */
+
+
+@media  (max-width:480){
+    .location{
+        flex-direction:column;
+    }
+
+    .location div{
+        height: 48%;
+        width: 100%;
+    }
+
+    .map{
+        padding: 0;
+    }
+    
+}
