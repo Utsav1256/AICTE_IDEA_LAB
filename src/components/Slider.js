@@ -2,7 +2,7 @@ import imgee1 from "../../static/images/bcg1.jpg";
 import imgee2 from "../../static/images/ANK_0020.jpg";
 import imgee3 from "../../static/images/msg1404115845-1446.jpg";
 import imgee4 from "../../static/images/msg1404115845-1445.jpg";
-
+import "./css/Slider.css";
 import { useState, useEffect } from "react";
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);

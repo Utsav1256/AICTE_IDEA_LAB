@@ -81,9 +81,6 @@
   transform: translateY(0px) rotate(-45deg);
   color: rgb(6, 99, 99);
 }
-#toggle.active {
-  /* background: rgb(6, 99, 99); */
-}
 
 #menu_links {
   width: 50%;
