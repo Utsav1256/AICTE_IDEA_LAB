@@ -1,6 +1,7 @@
 import Pic1 from "../../static/images/DSC_0547.png";
 import img1 from "../../static/images/AICTE_Idea.png";
 import { Link } from "react-router-dom";
+import "./css/Welcome.css";
 
 const Welcome = () => {
   return (

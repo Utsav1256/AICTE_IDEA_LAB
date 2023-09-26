@@ -36,82 +36,11 @@ body {
 
 /* Body */
 .body_container {
-  margin-top: 150px;
+  margin-top: 110px;
 }
 /* SLIDER */
 
 /* Welcome */
-#welcome_container {
-  width: 100%;
-  text-align: left;
-  /* border: 2px solid burlywood; */
-  margin-top: 40px;
-  height: 76vh;
-  padding: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 70px;
-  margin-bottom: 40px;
-}
-#welcome_container #text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 7px;
-  margin-left: 77px;
-}
-#welcome_container h4 {
-  color: #db2929;
-  font-size: 20px;
-
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-#welcome_container h1 {
-  color: #000;
-  font-weight: 700;
-  font-size: 55px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-#welcome_container #text p {
-  font-weight: 400;
-  font-size: 15px;
-  font-family: Montserrat;
-  line-height: 1.7;
-  color: #666666;
-  text-align: center;
-}
-#welcome_container #img {
-  width: 50%;
-}
-#welcome_container #pic1 {
-  border-radius: 10px;
-  width: 320px;
-  height: 300px;
-}
-#welcome_container #text #img {
-  width: 100px;
-}
-#welcome_container #text #img #imge {
-  width: 100px;
-  height: 80px;
-}
-.about-next-img {
-  background-image: url("./static/images/before.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 4px;
-  width: 100px;
-  height: 100px;
-  transition: 0.3s ease;
-}
-
-.about-next-img:hover {
-  background-image: url("./static/images/after-lab.png");
-  height: 5.5rem;
-  width: 5.5rem;
-}
 
 .error_container {
   width: 100%;

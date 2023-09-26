@@ -1,5 +1,6 @@
 import Media from "../media/media";
 import { useState } from "react";
+import "./css/Gallery.css";
 
 const Gallery = () => {
   const [file, setFile] = useState(null);
